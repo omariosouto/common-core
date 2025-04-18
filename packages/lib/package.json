@@ -1,0 +1,35 @@
+{
+  "name": "@omariosouto/common-core",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup",
+    "test": "echo 'There are no tests. But things work trust me!'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "exports": {
+    ".": "./dist/index.js",
+    "./test": "./dist/test.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": "https://github.com/omariosouto/common-core",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "4.17.12",
+    "@omariosouto/tsconfig": "1.13.11",
+    "@types/node": "^22.14.1",
+    "tsup": "^8.4.0",
+    "typescript": "^5.0.0"
+  }
+}
