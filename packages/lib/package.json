@@ -1,6 +1,6 @@
 {
   "name": "@omariosouto/common-core",
-  "version": "1.0.0",
+  "version": "1.0.1-beta20254181745020672PR1",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
