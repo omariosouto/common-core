@@ -1,4 +1,5 @@
 export * from "./sleep";
+export * from "./BigDecimal";
 
 // Lodash Stuff
 export { default as add } from "lodash-es/add";
