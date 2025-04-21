@@ -1,3 +1,8 @@
+# 1.0.3 - 2025-4-21
+
+We need this type to be able to work with values like money on Web (for fast previews) and Back End (To ensure that we are handling thigns properly)
+
+
 # 1.0.2 - 2025-4-19
 
 Just reexporting lodash types
