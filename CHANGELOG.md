@@ -1,3 +1,8 @@
+# 1.0.5 - 2025-5-8
+
+Just adding tests
+
+
 # 1.0.4 - 2025-4-21
 
 Just adjusting how we export lodash stuff
