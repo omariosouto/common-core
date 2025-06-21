@@ -1,6 +1,6 @@
 {
   "name": "@omariosouto/common-core",
-  "version": "1.0.5",
+  "version": "1.1.0-beta20256211750527731PR7",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
@@ -12,9 +12,9 @@
   "license": "MIT",
   "description": "",
   "exports": {
-    ".": "./src/index.ts",
-    "./date": "./src/date.ts",
-    "./test": "./src/testtjs"
+    "./date": "./dist/date.js",
+    ".": "./dist/index.js",
+    "./test": "./dist/test.js"
   },
   "files": [
     "dist"
