@@ -12,9 +12,9 @@
   "license": "MIT",
   "description": "",
   "exports": {
-    ".": "./src/index.ts",
-    "./date": "./src/date.ts",
-    "./test": "./src/testtjs"
+    "./date": "./dist/date.js",
+    ".": "./dist/index.js",
+    "./test": "./dist/test.js"
   },
   "files": [
     "dist"
@@ -34,7 +34,6 @@
     "@omariosouto/tsconfig": "1.13.11",
     "@types/lodash-es": "4.17.12",
     "@types/node": "^22.14.1",
-    "date-fns": "4.1.0",
     "jsdom": "^26.1.0",
     "tsup": "^8.4.0",
     "typescript": "^5.0.0",
