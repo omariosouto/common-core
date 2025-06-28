@@ -43,5 +43,5 @@ export default defineConfig({
   outDir: 'dist',
   clean: true,
   // Bundle dependencies instead of treating them as external
-  noExternal: ['date-fns', 'lodash-es']
+  noExternal: ['date-fns']
 });
