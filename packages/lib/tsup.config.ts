@@ -41,5 +41,7 @@ export default defineConfig({
   format: ['esm', 'cjs'],
   dts: true,
   outDir: 'dist',
-  clean: true
+  clean: true,
+  // Bundle dependencies instead of treating them as external
+  noExternal: ['date-fns', 'lodash-es']
 });
