@@ -12,9 +12,9 @@
   "license": "MIT",
   "description": "",
   "exports": {
-    "./date": "./dist/date.js",
-    ".": "./dist/index.js",
-    "./test": "./dist/test.js"
+    ".": "./src/index.ts",
+    "./date": "./src/date.ts",
+    "./test": "./src/testtjs"
   },
   "files": [
     "dist"
