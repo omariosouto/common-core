@@ -1,3 +1,8 @@
+# 1.1.2 - 2025-6-28
+
+This pull request includes a small change to the `packages/lib/src/index.ts` file. The change adds an export for the `lodash-es` library, making its utilities available for use across the project.
+
+
 # 1.1.1 - 2025-6-28
 
 Charging the way that `date-fns` is exposed to allow users to import the proxied functions
