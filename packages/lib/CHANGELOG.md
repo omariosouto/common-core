@@ -1,3 +1,8 @@
+# 1.1.1-beta20256281751152969PR8 - 2025-6-28
+
+Charging the way that `date-fns` is exposed to allow users to import the proxied functions
+
+
 # 1.1.0 - 2025-6-21
 
 This pull request updates the `packages/lib` module to enhance its functionality and improve code organization. Key changes include restructuring the `exports` in `package.json`, adding new dependencies, and introducing a new utility for converting time strings to milliseconds.
