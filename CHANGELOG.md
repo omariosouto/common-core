@@ -1,3 +1,11 @@
+# 1.1.3 - 2025-6-29
+
+This pull request updates the date utilities in the `packages/lib/src/date` module by restructuring the way `date-fns` functions are exported. It introduces a dedicated `dateFns` file for organizing all `date-fns` exports and modifies the main index file to reference this new structure.
+### Restructuring of date utilities:
+* [`packages/lib/src/date/dateFns/index.ts`](diffhunk://#diff-c7181493b86169456756d21fa2b7705c88adeb3663253be71be5fe5c328bc286R1-R213): Added a comprehensive list of exports for all `date-fns` functions, centralizing their management in a dedicated file.
+* [`packages/lib/src/date/index.ts`](diffhunk://#diff-941c99dcab8bdd6f41fe6d0650c37f1373dbb054a1a86ca547dd4abe61ae6d61L2-R2): Updated the export path for `date-fns` functions to use the newly created `dateFns` file instead of directly exporting from `date-fns`.
+
+
 # 1.1.2 - 2025-6-28
 
 This pull request includes a small change to the `packages/lib/src/index.ts` file. The change adds an export for the `lodash-es` library, making its utilities available for use across the project.

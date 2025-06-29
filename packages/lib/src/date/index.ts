@@ -1,2 +1,2 @@
 export * from "./toMilliseconds";
-export * from "date-fns";
+export * from "./dateFns";
